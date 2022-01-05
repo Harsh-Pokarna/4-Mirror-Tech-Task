@@ -90,11 +90,11 @@
                 android:layout_height="match_parent"
                 android:orientation="vertical">
                 <LinearLayout
-                    android:paddingHorizontal="10dp"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="horizontal">
                     <androidx.cardview.widget.CardView
+                        android:layout_marginLeft="10dp"
                         android:layout_marginVertical="4dp"
                         app:cardBackgroundColor="@color/white"
                         android:layout_width="160dp"
@@ -102,14 +102,24 @@
                         app:cardElevation="4dp"
                         app:cardCornerRadius="10dp"
                         android:layout_height="100dp">
-                        <TextView
-                            android:layout_marginTop="4dp"
+                        <LinearLayout
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Blood Pressure"
-                            android:textStyle="bold"
                             android:layout_gravity="top|center"
-                            android:textColor="@color/black"/>
+                            android:orientation="horizontal">
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="2dp"
+                                android:src="@drawable/ic_blood_bag_icon"/>
+                            <TextView
+                                android:layout_marginTop="4dp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Blood Pressure"
+                                android:textStyle="bold"
+                                android:textColor="@color/black"/>
+                        </LinearLayout>
                         <LinearLayout
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -143,6 +153,7 @@
                         android:layout_height="0dp"
                         android:layout_weight="1"/>
                     <androidx.cardview.widget.CardView
+                        android:layout_marginRight="10dp"
                         android:layout_marginVertical="4dp"
                         app:cardBackgroundColor="@color/white"
                         android:layout_width="160dp"
@@ -150,6 +161,16 @@
                         app:cardElevation="4dp"
                         app:cardCornerRadius="10dp"
                         android:layout_height="100dp">
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="top|center"
+                            android:orientation="horizontal">
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="2dp"
+                            android:src="@drawable/ic_weight_icon"/>
                         <TextView
                             android:layout_marginTop="4dp"
                             android:layout_width="wrap_content"
@@ -158,6 +179,7 @@
                             android:textStyle="bold"
                             android:layout_gravity="top|center"
                             android:textColor="@color/black"/>
+                        </LinearLayout>
                         <LinearLayout
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -192,12 +214,14 @@
                     android:layout_height="wrap_content">
                     <ImageView
                         android:layout_marginHorizontal="10dp"
-                        android:layout_width="wrap_content"
+                        android:layout_width="match_parent"
                         android:layout_height="200dp"
                         android:background="@drawable/banner_background"
                         android:scaleType="fitXY"
                         android:src="@drawable/banner_image"/>
+
                     <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/order_now_button"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:background="@drawable/button_background"
