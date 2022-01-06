@@ -3,15 +3,31 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="../../../../layout/custom_preview.xml" value="0.3776041666666667" />
         <entry key="app/src/main/res/drawable/banner_background.xml" value="0.378125" />
+        <entry key="app/src/main/res/drawable/banner_card_bg.xml" value="0.37864583333333335" />
         <entry key="app/src/main/res/drawable/button_background.xml" value="0.378125" />
         <entry key="app/src/main/res/drawable/card_button_background.xml" value="0.378125" />
+        <entry key="app/src/main/res/drawable/custom_linear_layout.xml" value="0.37864583333333335" />
+        <entry key="app/src/main/res/drawable/hjkb.xml" value="0.37864583333333335" />
+        <entry key="app/src/main/res/drawable/how_to_use_background.xml" value="0.37864583333333335" />
+        <entry key="app/src/main/res/drawable/ic_background_svg.xml" value="0.37864583333333335" />
         <entry key="app/src/main/res/drawable/ll1bg.xml" value="0.25462962962962965" />
+        <entry key="app/src/main/res/drawable/nabar_item_bg.xml" value="0.37864583333333335" />
         <entry key="app/src/main/res/drawable/profile_background.xml" value="0.378125" />
+        <entry key="app/src/main/res/drawable/selected_nav_item_bg.xml" value="0.37864583333333335" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/custom_badge_layout.xml" value="0.3625" />
         <entry key="app/src/main/res/layout/custom_banner.xml" value="0.3619791666666667" />
-        <entry key="app/src/main/res/layout/main_home_widget.xml" value="0.9" />
+        <entry key="app/src/main/res/layout/fragment_home.xml" value="0.3625" />
+        <entry key="app/src/main/res/layout/fragment_learn.xml" value="0.3625" />
+        <entry key="app/src/main/res/layout/fragment_monitor.xml" value="0.3625" />
+        <entry key="app/src/main/res/layout/fragment_settings.xml" value="0.3625" />
+        <entry key="app/src/main/res/layout/fragment_shopping.xml" value="0.3625" />
+        <entry key="app/src/main/res/layout/main_home_widget.xml" value="0.5" />
         <entry key="app/src/main/res/layout/profile_image_layout.xml" value="0.3619791666666667" />
+        <entry key="app/src/main/res/layout/tab_indicator.xml" value="0.3625" />
+        <entry key="app/src/main/res/menu/bottom_nav_menu.xml" value="0.3625" />
       </map>
     </option>
   </component>
